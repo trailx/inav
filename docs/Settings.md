@@ -5904,11 +5904,11 @@ Servo midpoint
 
 ### servo_lpf_hz
 
-Selects the servo PWM output cutoff frequency. Value is in [Hz]
+Selects the servo PWM output cutoff frequency. If you experience excessive servo noise especially in analog servos, you may find a lower value (approx 20) will reduce this at the cost of some control latency. Value is in [Hz]
 
 | Default | Min | Max |
 | --- | --- | --- |
-| 20 | 0 | 400 |
+| 150 | 0 | 400 |
 
 ---
 
